@@ -9,11 +9,18 @@ public static class DataValidator
 
     public static void Validate(ValidatorCallback callback)
     {
-        string? errorMessage = callback();
-
-        if (errorMessage != null)
+        try
         {
-            Console.WriteLine(errorMessage);
+            string? errorMessage = callback();
+
+            if (errorMessage != null)
+            {
+                throw new Exception(errorMessage);
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Validation error: {ex.Message}");
             Environment.Exit(SuccessfulExitCode);
         }
     }
