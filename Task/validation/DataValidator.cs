@@ -1,6 +1,6 @@
-using Lab1.Validation.ConstantsSets;
+using Task.Validation.ConstantsSets;
 
-namespace Lab1.Validation;
+namespace Task.Validation;
 
 public static class DataValidator
 {

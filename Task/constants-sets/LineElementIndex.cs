@@ -1,4 +1,4 @@
-namespace Lab1.ConstantsSets;
+namespace Task.ConstantsSets;
 
 public static class LineElementIndex
 {

@@ -1,8 +1,8 @@
-﻿using Lab1.Services;
-using Lab1.ConstantsSets;
-using Lab1.Validation;
+﻿using Task.Services;
+using Task.ConstantsSets;
+using Task.Validation;
 
-namespace Lab1;
+namespace Task;
 public class Program
 {
     public static void Main()

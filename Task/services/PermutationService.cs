@@ -1,4 +1,4 @@
-namespace Lab1.Services;
+namespace Task.Services;
 
 public static class PermutationService
 {
